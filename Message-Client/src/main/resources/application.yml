@@ -9,3 +9,5 @@ grpc:
       negotiation-type: TLS
       security:
         trust-cert-collection: file:../../../SSL/client.cert.pem
+
+myApiKey: Ekale6@EkaleMotorihi
