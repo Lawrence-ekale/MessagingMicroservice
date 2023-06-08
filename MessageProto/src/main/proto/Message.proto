@@ -18,7 +18,7 @@ message Message {
 
 service MessageService {
   rpc SendMessage(Message) returns (MessageSavedId);
-  rpc GetMessageById(GetMessageByIdRequest) returns (MessageResponse);
+  rpc GetMessageById(GetMessageByIdRequest) returns (stream Message);
 }
 
 message GetMessageByIdRequest {
